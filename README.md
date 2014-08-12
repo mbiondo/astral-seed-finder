@@ -3,7 +3,6 @@ BackEnd
 ================== 
 
 http://es.seedfinder.eu/api/
-Output: JSON
 
 Serivce Proxy (django possible)  
 
@@ -12,7 +11,7 @@ Frontend
 
 Android App WebContainer +  Ember JS + Ember Data
 
-seriveces list
+Seriveces
 ================== 
 
 ```
