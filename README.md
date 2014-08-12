@@ -1,7 +1,6 @@
-astral-seed-finder
-==================
 
 BackEnd: 
+================== 
 
 http://es.seedfinder.eu/api/
 Output: JSON
@@ -9,13 +8,12 @@ Output: JSON
 Serivce Proxy (django possible)  
 
 Frontend:
+================== 
 
 Android App WebContainer +  Ember JS + Ember Data
-==================
-
 
 seriveces list:
-
+================== 
 api/v
      /strains  	          GET		  List all strains		
      /strains/{id}	      GET		  Get strain by id
@@ -23,8 +21,8 @@ api/v
      /breeders/{id}	      GET		  Get breeder by id
      /plants		          GET     List all plants
      /plants		          POST	  Create a new plant
-	   /plants/{id}	        GET		  Get plant by id
-	   /plants/{id}/images  GET		  Get all images for a plant by id
+     /plants/{id}	        GET		  Get plant by id
+     /plants/{id}/images  GET		  Get all images for a plant by id
      /plants/{id}	        PUT		  Edit a plant by id
      /plants/{id}	        DELETE  Delete a plant
      /rooms		            GET     List all rooms
@@ -38,9 +36,8 @@ api/v
      /conteiners/{id}	    PUT		  Edit a conteiner by id
      /conteiners/{id}	    DELETE  Delete a conteiner 
 
-==================
-
 Entities:
+==================
 
 Strain
     id: Number
@@ -86,7 +83,7 @@ Room
   name: String
   plants: [Plant]
   
-==================  
+
 
 
           
