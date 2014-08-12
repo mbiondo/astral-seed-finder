@@ -32,10 +32,10 @@ api/v
      /rooms/{id}	        PUT		Edit a room by id
      /rooms/{id}	        DELETE  Delete a room
      /conteiners          	GET     List all conteiners
-     /conteiners		    POST	Create a new conteiner
-	 /conteiners/{id}	    GET		Get conteiner by id
-     /conteiners/{id}	    PUT		Edit a conteiner by id
-     /conteiners/{id}	    DELETE  Delete a conteiner 
+     /conteiners		    POST	Create a new container
+	 /containers/{id}	    GET		Get container by id
+     /containers/{id}	    PUT		Edit a container by id
+     /containers/{id}	    DELETE  Delete a container 
 ```
 
 Entities
